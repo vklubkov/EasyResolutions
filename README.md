@@ -1,7 +1,7 @@
 Scenes and Resolutions Picker
 ===
 
-Scenes and Resolutions Picker is a bunch of C# scripts for [Unity3d](http://unity3d.com/), which allow you to have different versions of same scene for different screen resolutions. They automate selection of a proper scene depending on current resolution of the game window.
+Scenes and Resolutions Picker is a bunch of C# scripts for [Unity3d](http://unity3d.com/), which allow you to have different versions of same scene for different screen resolutions. The scene is selected automatically, depending on current resolution of the game window.
 
 This could be especially suitable for 2d games, when you need to support a large amount of devices with different screen resolutions and aspect ratios and with different amount of video memory available.
 
