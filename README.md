@@ -23,7 +23,6 @@ When you import the package, you are able to import it partially. This section d
 * `Scripts` - folder containing C# scripts. You absolutely need this folder in order to use Scenes And Resolutions Picker in your project. 
 * `UnitTests` - folder containing unit tests for C# scripts. Tests were written using [Unity Test Tools](http://u3d.as/content/unity-technologies/unity-test-tools/65h), and most likely you will need these tools to run the tests. You don't need this folder in your project, unless you want to run unit tests for Scenes and Resolutions Picker.
 * `Example` - folder containing a simple usage example. You don't need it in your project. It is also a good idea to create a separate project just to run the example.
-* `README.md` - file, containing Markdown version of this description. It is necessary for GitHub. You don't need it in your project.
 * `README.txt` - file, containing plain text version of this description, which could be shown in Editor. You don't need it in your project.
 
 ## Running the example
