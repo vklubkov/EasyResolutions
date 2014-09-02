@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="ISingleDimensionComparer.cs" company="">
+// <copyright file="ISingleDimensionComparer.cs" company="https://github.com/marked-one/ScenesAndResolutionsPicker">
 //     Copyright © 2014 Vladimir Klubkov. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------

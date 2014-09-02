@@ -1,5 +1,5 @@
 //-----------------------------------------------------------------------
-// <copyright file="FloatHelperTests.cs" company="">
+// <copyright file="FloatHelperTests.cs" company="https://github.com/marked-one/ScenesAndResolutionsPicker">
 //     Copyright © 2014 Vladimir Klubkov. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
