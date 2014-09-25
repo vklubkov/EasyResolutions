@@ -211,5 +211,5 @@ Tips
 Unity, MonoDevelop, C# and .NET versions
 
 Scripts were created using:
-* Unity 4.5.4f1
+* Unity 4.5.2f1
 * MonoDevelop 4.0.1 with Target Framework set to Mono/.NET 3.5 and C# language version set to: Default.
