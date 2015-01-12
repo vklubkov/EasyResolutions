@@ -1,9 +1,8 @@
 Easy Resolutions
 ===
+![Easy Resolutions logo](https://cloud.githubusercontent.com/assets/7109579/4121004/28abcbb8-32b7-11e4-890a-9df3357476df.png?raw=true "Easy Resolutions")
 
 [Asset Store Link](http://u3d.as/content/vladimir-klubkov/easy-resolutions)
-
-![Easy Resolutions logo](https://cloud.githubusercontent.com/assets/7109579/4121004/28abcbb8-32b7-11e4-890a-9df3357476df.png?raw=true "Easy Resolutions")
 
 Easy Resolutions is a bunch of C# scripts for [Unity3d](http://unity3d.com/), which allow you to load different versions of same scene for different screen resolutions. The scene is selected automatically depending on the current resolution of the game window.
 
