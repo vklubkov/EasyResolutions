@@ -1,3 +1,10 @@
+#Special
+Assets/EasyResolutions/Resources/
+Assets/EasyResolutions/Resources.meta
+Assets/UnityTestTools/
+Assets/UnityTestTools.meta
+
+#Folders
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
