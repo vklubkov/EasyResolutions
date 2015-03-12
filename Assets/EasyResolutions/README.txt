@@ -1,8 +1,8 @@
 Easy Resolutions
 
-Easy Resolutions is an asset that allows you to load different scenes for different resolutions of the game window. 
+Easy Resolutions is an asset which allows you to automatically load different scenes for different resolutions of the game window. 
 
-It is especially suitable for 2d games when you need to support a large amount of devices with different screen resolutions/aspect ratios/different amount of available video memory.
+It is especially suitable for 2d games when you need to support a large amount of devices with different screen resolutions/aspect ratios/amount of video memory.
 
 The asset is easy to use:
 1. First you name your scenes using the following template: `{scene name}.{width}x{height}`, where the `{width}x{height}` part is the resolution, for which the scene is designed. Example: `SomeScene.1366x768`. 
