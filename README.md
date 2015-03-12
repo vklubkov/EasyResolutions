@@ -1,6 +1,6 @@
 Easy Resolutions
 ===
-![Easy Resolutions logo](https://cloud.githubusercontent.com/assets/7109579/4121004/28abcbb8-32b7-11e4-890a-9df3357476df.png?raw=true "Easy Resolutions")
+![Easy Resolutions logo](https://cloud.githubusercontent.com/assets/7109579/6622120/a3575c22-c8eb-11e4-80bf-6a8c61a33a18.png?raw=true "Easy Resolutions")
 
 [Download GitHub release](https://github.com/marked-one/EasyResolutions/releases/latest)  
 [Download from Unity Asset Store](http://u3d.as/content/vladimir-klubkov/easy-resolutions)
