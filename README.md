@@ -5,9 +5,9 @@ Easy Resolutions
 [Download GitHub release](https://github.com/marked-one/EasyResolutions/releases/latest)  
 [Download from Unity Asset Store](http://u3d.as/content/vladimir-klubkov/easy-resolutions)
 
-Easy Resolutions is an asset for [Unity3d](http://unity3d.com/) (now supports Unity 5) that allows you to load different scenes for different resolutions of the game window. 
+Easy Resolutions is an asset  for [Unity3d](http://unity3d.com/) (now supports Unity 5) which allows you to automatically load different scenes for different resolutions of the game window.
 
-It is especially suitable for 2d games when you need to support a large amount of devices with different screen resolutions/aspect ratios/different amount of available video memory.
+It is especially suitable for 2d games when you need to support a large amount of devices with different screen resolutions/aspect ratios/amount of video memory.
 
 The asset is easy to use:
 1. First you name your scenes using the following template: `{scene name}.{width}x{height}`, where the `{width}x{height}` part is the resolution, for which the scene is designed. Example: `SomeScene.1366x768`. 
