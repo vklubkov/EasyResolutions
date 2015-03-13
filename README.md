@@ -4,7 +4,7 @@ Easy Resolutions
 ![Easy Resolutions logo](https://cloud.githubusercontent.com/assets/7109579/6630344/f1c92d12-c928-11e4-9068-5442018b0be1.png?raw=true "Easy Resolutions")
 
 [Download GitHub release](https://github.com/marked-one/EasyResolutions/releases/latest)  
-[Download from Unity Asset Store](http://u3d.as/content/vladimir-klubkov/easy-resolutions)
+[Download from Unity Asset Store](http://u3d.as/9aa)
 
 Easy Resolutions is an asset  for [Unity3d](http://unity3d.com/) (now supports Unity 5) which allows you to automatically load different scenes for different resolutions of the game window.
 
