@@ -2,7 +2,7 @@
     "name": "EasyResolutions-Editor",
     "rootNamespace": "",
     "references": [
-        "EasyResolutions"
+        "GUID:59b48a270bd446e8a6c5ff873e5e2c14"
     ],
     "includePlatforms": [
         "Editor"
