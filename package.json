@@ -1,0 +1,18 @@
+{
+  "name": "com.vklubkov.easyresolutions",
+  "version": "2.0.0",
+  "displayName": "Easy Resolutions",
+  "description": "Automatically picks the appropriate scene based on the screen resolution.\n\nCan be especially well-suited for 2D games that need to support a wide range of devices with varying scene resolutions, aspect ratios, and memory capacities.",
+  "keywords": [
+    "Resolution",
+    "Aspect",
+    "Ratio",
+    "Layout"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Vladimir Klubkov",
+    "email": "vladimir.gamedev@gmail.com",
+    "url": "https://github.com/vklubkov"
+  }
+}
