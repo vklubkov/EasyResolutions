@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3685efded7a4fb699960e8585a868a2, type: 3}
+  m_Name: EasyResolutions_Settings
+  m_EditorClassIdentifier: 
+  _defaultComparer: {fileID: 11400000, guid: 59a3f350535449fe099455c999b6fc07, type: 2}
+  _epsilonForAspectRatioComparison: 0.008
+  _startingSceneGroup: Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/01 -
+    Resource Loading
+  _sceneList:
+  - _fullPath: Assets/Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/01 -
+      Resource Loading.unity
+    _nameWithoutExtension: 01 - Resource Loading
+    _index: 0
+    _groupPath: Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/01 - Resource
+      Loading
+    _pathWithoutExtension: Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/01
+      - Resource Loading
+    _width: -1
+    _height: -1
+  - _fullPath: Assets/Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/02 -
+      Runtime Dictionary.unity
+    _nameWithoutExtension: 02 - Runtime Dictionary
+    _index: 1
+    _groupPath: Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/02 - Runtime
+      Dictionary
+    _pathWithoutExtension: Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/02
+      - Runtime Dictionary
+    _width: -1
+    _height: -1
+  - _fullPath: Assets/Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/03 -
+      Dynamic Selector.unity
+    _nameWithoutExtension: 03 - Dynamic Selector
+    _index: 2
+    _groupPath: Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/03 - Dynamic
+      Selector
+    _pathWithoutExtension: Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/03
+      - Dynamic Selector
+    _width: -1
+    _height: -1
+  - _fullPath: Assets/Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/04 -
+      Custom Resolution.unity
+    _nameWithoutExtension: 04 - Custom Resolution
+    _index: 3
+    _groupPath: Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/04 - Custom
+      Resolution
+    _pathWithoutExtension: Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/04
+      - Custom Resolution
+    _width: -1
+    _height: -1
+  _groupComparerKeys:
+  - Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/01 - Resource Loading
+  - Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/02 - Runtime Dictionary
+  - Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/03 - Dynamic Selector
+  - Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/04 - Custom Resolution
+  _groupComparerValues:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _stringMaps:
+  - {fileID: 11400000, guid: 2dbc6b4d255d8f585b3fca21fbb7a346, type: 2}
+  _version: 711
+  _buildPlayerProcessorOrder: 0
+  _runStartingSceneInsteadOfActiveScene: 1
+  _pickResolutionForActiveScene: 0
+  _scenesFoldoutValue: 1
+  _groupFoldoutKeys:
+  - Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/01 - Resource Loading
+  - Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/02 - Runtime Dictionary
+  - Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/03 - Dynamic Selector
+  - Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/04 - Custom Resolution
+  _groupFoldoutValues: 00000000
+  _sceneFoldoutKeys:
+  - Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/01 - Resource Loading
+  - Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/02 - Runtime Dictionary
+  - Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/03 - Dynamic Selector
+  - Samples/Easy Resolutions/2.0.0/Advanced Sample/Scenes/04 - Custom Resolution
+  _sceneFoldoutValues: 00000000

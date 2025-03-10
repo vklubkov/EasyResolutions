@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3685efded7a4fb699960e8585a868a2, type: 3}
+  m_Name: EasyResolutions_Settings
+  m_EditorClassIdentifier: 
+  _defaultComparer: {fileID: 11400000, guid: 59a3f350535449fe099455c999b6fc07, type: 2}
+  _epsilonForAspectRatioComparison: 0.008
+  _startingSceneGroup: Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene
+  _sceneList:
+  - _fullPath: Packages/com.vklubkov.easyresolutions/Assets/ZeroScene.unity
+    _nameWithoutExtension: ZeroScene
+    _index: 0
+    _groupPath: Packages/com.vklubkov.easyresolutions/Assets/ZeroScene
+    _pathWithoutExtension: Packages/com.vklubkov.easyresolutions/Assets/ZeroScene
+    _width: -1
+    _height: -1
+  - _fullPath: Assets/Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.711x400.unity
+    _nameWithoutExtension: StartingScene.711x400
+    _index: 1
+    _groupPath: Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene
+    _pathWithoutExtension: Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.711x400
+    _width: 711
+    _height: 400
+  - _fullPath: Assets/Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.768x1024.unity
+    _nameWithoutExtension: StartingScene.768x1024
+    _index: 2
+    _groupPath: Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene
+    _pathWithoutExtension: Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.768x1024
+    _width: 768
+    _height: 1024
+  - _fullPath: Assets/Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.768x1366.unity
+    _nameWithoutExtension: StartingScene.768x1366
+    _index: 3
+    _groupPath: Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene
+    _pathWithoutExtension: Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.768x1366
+    _width: 768
+    _height: 1366
+  - _fullPath: Assets/Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.1024x768.unity
+    _nameWithoutExtension: StartingScene.1024x768
+    _index: 4
+    _groupPath: Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene
+    _pathWithoutExtension: Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.1024x768
+    _width: 1024
+    _height: 768
+  - _fullPath: Assets/Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.2048x1536.unity
+    _nameWithoutExtension: StartingScene.2048x1536
+    _index: 5
+    _groupPath: Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene
+    _pathWithoutExtension: Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.2048x1536
+    _width: 2048
+    _height: 1536
+  _groupComparerKeys:
+  - Packages/com.vklubkov.easyresolutions/Assets/ZeroScene
+  - Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene
+  _groupComparerValues:
+  - {fileID: 0}
+  - {fileID: 0}
+  _stringMaps: []
+  _version: 723
+  _buildPlayerProcessorOrder: 0
+  _runStartingSceneInsteadOfActiveScene: 1
+  _pickResolutionForActiveScene: 1
+  _scenesFoldoutValue: 1
+  _groupFoldoutKeys:
+  - Packages/com.vklubkov.easyresolutions/Assets/ZeroScene
+  - Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene
+  _groupFoldoutValues: 0100
+  _sceneFoldoutKeys:
+  - Packages/com.vklubkov.easyresolutions/Assets/ZeroScene
+  - Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.711x400
+  - Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.768x1024
+  - Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.768x1366
+  - Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.1024x768
+  - Samples/Easy Resolutions/2.0.0/Getting Started Sample/Scenes/StartingScene.2048x1536
+  _sceneFoldoutValues: 000000000000

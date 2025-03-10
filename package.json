@@ -18,5 +18,22 @@
     "name": "Vladimir Klubkov",
     "email": "vladimir.gamedev@gmail.com",
     "url": "https://github.com/vklubkov"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Getting Started Sample",
+      "description": "A basic example demonstrating how to set up and use Easy Resolutions for the first time.",
+      "path": "Samples~/GettingStartedSample"
+    },
+    {
+      "displayName": "Advanced Sample",
+      "description": "An in-depth showcase of Easy Resolutions' key features, including scene management, resource handling, and dynamic string selection.",
+      "path": "Samples~/AdvancedSample"
+    },
+    {
+      "displayName": "Zenject Sample",
+      "description": "Demonstrates how to integrate Easy Resolutions with Zenject (Extenject). Requires Extenject to be installed: https://github.com/Mathijs-Bakker/Extenject",
+      "path": "Samples~/ZenjectSample"
+    }
+  ]
 }
