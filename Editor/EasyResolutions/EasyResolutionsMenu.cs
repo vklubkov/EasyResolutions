@@ -9,11 +9,11 @@ namespace EasyResolutions {
         const string _createComparerAssetMenuItemName = "Tools/Easy Resolutions/Create Comparer";
         const string _openSettingsAssetMenuItemName = "Tools/Easy Resolutions/Open Settings";
 
-        const string _runStartingSceneInsteadOfOpenSceneMenuItemName =
-            "Tools/Easy Resolutions/Run Starting Scene instead of Open Scene";
+        const string _runStartingSceneInsteadOfActiveSceneMenuItemName =
+            "Tools/Easy Resolutions/Run Starting Scene instead of Active Scene";
         
-        const string _pickResolutionForRunningSceneMenuItemName =
-            "Tools/Easy Resolutions/Pick Resolution for Running Scene";
+        const string _pickResolutionForActiveSceneMenuItemName =
+            "Tools/Easy Resolutions/Pick Resolution for Active Scene";
 
         const string _createHelpMenuItemName = "Tools/Easy Resolutions/Help";
 
@@ -41,67 +41,67 @@ namespace EasyResolutions {
         [MenuItem(_openSettingsAssetMenuItemName, isValidateFunction: true)]
         static bool ValidateOpenSettingsAsset() => GetSettings() != null;
 
-        [MenuItem(_runStartingSceneInsteadOfOpenSceneMenuItemName, isValidateFunction: false, priority: 70)]
-        static void ToggleRunStartingSceneInsteadOfOpenScene() {
+        [MenuItem(_runStartingSceneInsteadOfActiveSceneMenuItemName, isValidateFunction: false, priority: 70)]
+        static void ToggleRunStartingSceneInsteadOfActiveScene() {
             var settings = GetSettings();
             if (settings == null)
                 return;
 
             using var serializedObject = new SerializedObject(settings);
 
-            using var runStartingSceneInsteadOfOpenSceneProperty =
-                serializedObject.FindProperty(EasyResolutions_Settings.RunStartingSceneInsteadOfOpenScenePropertyName);
+            using var runStartingSceneInsteadOfActiveSceneProperty = serializedObject.FindProperty(
+                EasyResolutions_Settings.RunStartingSceneInsteadOfActiveScenePropertyName);
 
-            runStartingSceneInsteadOfOpenSceneProperty.boolValue =
-                !runStartingSceneInsteadOfOpenSceneProperty.boolValue;
+            runStartingSceneInsteadOfActiveSceneProperty.boolValue =
+                !runStartingSceneInsteadOfActiveSceneProperty.boolValue;
 
             serializedObject.ApplyModifiedProperties();
         }
 
-        [MenuItem(_runStartingSceneInsteadOfOpenSceneMenuItemName, isValidateFunction: true)]
-        static bool ValidateRunStartingSceneInsteadOfOpenScene() {
+        [MenuItem(_runStartingSceneInsteadOfActiveSceneMenuItemName, isValidateFunction: true)]
+        static bool ValidateRunStartingSceneInsteadOfActiveScene() {
             var settings = GetSettings();
             if (settings == null)
                 return false;
 
             using var serializedObject = new SerializedObject(settings);
 
-            using var runStartingSceneInsteadOfOpenSceneProperty =
-                serializedObject.FindProperty(EasyResolutions_Settings.RunStartingSceneInsteadOfOpenScenePropertyName);
+            using var runStartingSceneInsteadOfActiveSceneProperty = serializedObject.FindProperty(
+                EasyResolutions_Settings.RunStartingSceneInsteadOfActiveScenePropertyName);
 
-            var runStartingSceneInsteadOfOpenScene = runStartingSceneInsteadOfOpenSceneProperty.boolValue;
-            Menu.SetChecked(_runStartingSceneInsteadOfOpenSceneMenuItemName, runStartingSceneInsteadOfOpenScene);
+            var runStartingSceneInsteadOfActiveScene = runStartingSceneInsteadOfActiveSceneProperty.boolValue;
+            Menu.SetChecked(_runStartingSceneInsteadOfActiveSceneMenuItemName, runStartingSceneInsteadOfActiveScene);
             return true;
         }
         
-        [MenuItem(_pickResolutionForRunningSceneMenuItemName, isValidateFunction: false, priority: 80)]
-        static void TogglePickResolutionForRunningScene() {
+        [MenuItem(_pickResolutionForActiveSceneMenuItemName, isValidateFunction: false, priority: 80)]
+        static void TogglePickResolutionForActiveScene() {
             var settings = GetSettings();
             if (settings == null)
                 return;
 
             using var serializedObject = new SerializedObject(settings);
             
-            using var pickResolutionForRunningSceneProperty = 
-                serializedObject.FindProperty(EasyResolutions_Settings.PickResolutionForRunningScenePropertyName);
+            using var pickResolutionForActiveSceneProperty = 
+                serializedObject.FindProperty(EasyResolutions_Settings.PickResolutionForActiveScenePropertyName);
             
-            pickResolutionForRunningSceneProperty.boolValue = !pickResolutionForRunningSceneProperty.boolValue;
+            pickResolutionForActiveSceneProperty.boolValue = !pickResolutionForActiveSceneProperty.boolValue;
             serializedObject.ApplyModifiedProperties();
         }
 
-        [MenuItem(_pickResolutionForRunningSceneMenuItemName, isValidateFunction: true)]
-        static bool ValidatePickResolutionForRunningScene() {
+        [MenuItem(_pickResolutionForActiveSceneMenuItemName, isValidateFunction: true)]
+        static bool ValidatePickResolutionForActiveScene() {
             var settings = GetSettings();
             if (settings == null)
                 return false;
 
             using var serializedObject = new SerializedObject(settings);
 
-            using var pickResolutionForRunningSceneProperty =
-                serializedObject.FindProperty(EasyResolutions_Settings.PickResolutionForRunningScenePropertyName);
+            using var pickResolutionForActiveSceneProperty =
+                serializedObject.FindProperty(EasyResolutions_Settings.PickResolutionForActiveScenePropertyName);
 
-            var pickResolutionForRunningScene = pickResolutionForRunningSceneProperty.boolValue;
-            Menu.SetChecked(_pickResolutionForRunningSceneMenuItemName, pickResolutionForRunningScene);
+            var pickResolutionForActiveScene = pickResolutionForActiveSceneProperty.boolValue;
+            Menu.SetChecked(_pickResolutionForActiveSceneMenuItemName, pickResolutionForActiveScene);
             return true;
         }
 

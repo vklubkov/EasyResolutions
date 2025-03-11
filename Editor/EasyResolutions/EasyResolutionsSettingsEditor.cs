@@ -77,12 +77,12 @@ namespace EasyResolutions {
             editorSettings.AddPropertyField(buildPlayerProcessorOrderProperty);
 
             var runStartingSceneInsteadOfOpenSceneProperty =
-                serializedObject.FindProperty(EasyResolutions_Settings.RunStartingSceneInsteadOfOpenScenePropertyName);
+                serializedObject.FindProperty(EasyResolutions_Settings.RunStartingSceneInsteadOfActiveScenePropertyName);
 
             editorSettings.AddPropertyField(runStartingSceneInsteadOfOpenSceneProperty);
 
             var pickResolutionForRunningSceneProperty =
-                serializedObject.FindProperty(EasyResolutions_Settings.PickResolutionForRunningScenePropertyName);
+                serializedObject.FindProperty(EasyResolutions_Settings.PickResolutionForActiveScenePropertyName);
 
             editorSettings.AddPropertyField(pickResolutionForRunningSceneProperty);
         }

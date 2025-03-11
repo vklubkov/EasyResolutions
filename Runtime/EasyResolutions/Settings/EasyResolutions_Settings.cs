@@ -23,10 +23,10 @@ namespace EasyResolutions {
         public static string VersionPropertyName => nameof(_version);
         public static string BuildPlayerProcessorOrderPropertyName => nameof(_buildPlayerProcessorOrder);
 
-        public static string RunStartingSceneInsteadOfOpenScenePropertyName =>
+        public static string RunStartingSceneInsteadOfActiveScenePropertyName =>
             nameof(_runStartingSceneInsteadOfActiveScene);
 
-        public static string PickResolutionForRunningScenePropertyName => nameof(_pickResolutionForActiveScene);
+        public static string PickResolutionForActiveScenePropertyName => nameof(_pickResolutionForActiveScene);
         public static string ScenesFoldoutValuePropertyName => nameof(_scenesFoldoutValue);
         public static string GroupFoldoutKeysPropertyName => nameof(_groupFoldoutKeys);
         public static string GroupFoldoutValuesPropertyName => nameof(_groupFoldoutValues);
