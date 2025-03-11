@@ -2,7 +2,7 @@
   "name": "com.vklubkov.easyresolutions",
   "version": "2.0.0",
   "displayName": "Easy Resolutions",
-  "description": "Automatically picks the appropriate scene based on the screen resolution.\n\nCan be especially well-suited for 2D games that need to support a wide range of devices with varying scene resolutions, aspect ratios, and memory capacities.",
+  "description": "Automatically selects the appropriate scene based on screen resolution.\n\nParticularly well-suited for games that aim to support a wide range of devices with varying scene resolutions, aspect ratios, and memory capacities by offering different UI/2D graphics layouts.",
   "keywords": [
     "Easy Resolutions",
     "EasyResolutions",
