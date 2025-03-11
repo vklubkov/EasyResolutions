@@ -231,7 +231,7 @@ public enum StringMapIdentifier {
 }
 
 [CreateAssetMenu(fileName = "Custom String Map", menuName = "Easy Resolutions/Custom String Map")]
-public class CustomStringMap : EasyResolutions_StringMap<StringMapIdentifier> { }
+public class CustomStringMap : EasyResolutionsStringMap<StringMapIdentifier> { }
 ```
 
 With this code, you can create Custom Scene Map assets using one of the following methods:
