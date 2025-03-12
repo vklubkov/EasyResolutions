@@ -17,10 +17,17 @@ Particularly well-suited for games that aim to support a wide range of devices w
 
 ## Installation
 
+### Package Manager
+
 Open the Unity Package Manager, click the `+` button, select `Install package from git URL...`, and paste the following URL: `https://github.com/marked-one/EasyResolutions.git`
 
 Alternatively, you can use a versioned URL, e.g.: `https://github.com/marked-one/EasyResolutions.git#2.0.0`.
 
+### Asset Store
+
+Can be downloaded from Unity Asset Store: https://assetstore.unity.com/packages/tools/utilities/easy-resolutions-21478
+
+Note that in this case it is distributed under the [Unity Asset Store EULA](https://unity.com/legal/as-terms).
 
 ## Samples
 
